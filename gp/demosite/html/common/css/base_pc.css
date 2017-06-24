@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+@media screen and (min-width: 641px) {
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	color: #333;
+}
+
+.sp {
+	display: none !important;
+}
+
+/* img alphaOver */
+.alphaOver a:hover img {
+	opacity:0.7;
+	filter: alpha(opacity=70);
+	-ms-filter: "alpha(opacity=70)";
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* -----------------------------------------------------------------------------
+	header
+----------------------------------------------------------------------------- */
+.header {
+	background: #00a1ea;
+	position: relative;
+	width: 1000px;
+	margin:0 auto;
+}
+
+
+/*nav
+---------------------------------------------*/
+.nav {
+	position: absolute;
+	top: 0;
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+	position: relative;
+	width: 142px;
+	height: 103px;
+	background: #00a1ea;
+}
+
+.logo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+	
+/* navList */
+.navList {
+	float: right;
+	width: 858px;
+}
+
+
+/* navItem */
+.navItem {
+	float: left;
+	width: 143px;
+	height: 103px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.8);
+	color: #00a1ea;
+}
+
+.navItem:not(:first-child):not(:last-child) {
+	border-right: 1px solid #e4f5fb;
+}
+
+.navItem:hover {
+	background: rgba(229, 247, 255, 0.8);
+}
+
+.navItem img {
+	margin-bottom: 10px;
+}
+
+.navItem a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.navItemContent p {
+	padding-top: 50px;
+	color: #00a1ea;
+	font-size: 140%;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.navItemContent.house p {
+	background: url(../../img/icon_house.png) no-repeat center center;
+}
+
+.navItemContent.task p {
+	background: url(../../img/icon_task.png) no-repeat center center;
+}
+
+.navItemContent.staff p {
+	background: url(../../img/icon_staff.png) no-repeat center center;
+}
+
+.navItemContent.tour p {
+	background: url(../../img/icon_tour.png) no-repeat center center;
+}
+
+.navItemContent.book p {
+	background: url(../../img/icon_book.png) no-repeat center center;
+}
+
+.navItemContent.contact p {
+	background: url(../../img/icon_email.png) no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
