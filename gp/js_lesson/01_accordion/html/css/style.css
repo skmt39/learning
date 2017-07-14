@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+#contents {
+  position: relative;
+  width: 100%;
+}
+
+.acdn_list {
+  position: absolute;
+  width: 858px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.acdn_list_item {
+  float: left;
+  width: 400px;
+}
+
+.acdn_list_item:first-child {
+  margin: 0 58px 0 0;
+}
+
+.acd_btn {
+  position: relative;
+  width: 400px;
+  height: 60px;
+  background: #5b99ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.acd_btn h2 {
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 60px;
+}
+
+.btn_icon {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 20px;
+  bottom: 0;
+  width: 18px;
+  height: 2px;
+  margin: auto;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.btn_icon::after {
+  content: '';
+  position: relative;
+  display: inline-block;
+  top: -8px;
+  right: -8px;
+  width: 2px;
+  height: 18px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.btn_icon.close {
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+}
+
+.btn_icon.close::after {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
+.acdn_content {
+  width: 400px;
+  height: 180px;
+  padding: 16px;
+  background: #fff;
+  color: #333;
+  border: 3px solid #5b99ff;
+  border-top: 0px;
+}
+
+.acdn_content_txt {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
