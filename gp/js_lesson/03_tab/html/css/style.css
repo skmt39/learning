@@ -5,8 +5,55 @@
 }
 .tabMenu {
 	width: 780px;
-	height: 240px;
+	margin: 0 auto;
+	list-style: none;
+	border: 3px solid #5b99ff;
 }
 .tabList {
-	
+	position: relative;
+	float: left;
+	width: 33.333%;
+	color: #5b99ff;
+	background-color: #fff;
+	text-align: center;
+	line-height: 60px;
+	border-right: 3px solid #5b99ff;
+	cursor: pointer;
+}
+.tabList:last-child {
+	border-right: 0;
+}
+.tabList.active {
+	position: relative;
+	color: #fff;
+	background-color: #5b99ff;
+}
+.tabList.active::after {
+	content: '';
+	position: absolute;
+	bottom: -23px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-top: 10px solid #5b99ff;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+.tabBox {
+	position: relative;
+  width: 780px;
+  margin: 0 auto;
+}
+.tabTxt {
+	display: none;
+	position: absolute;
+	padding: 30px;
+	list-style: none;
+	line-height: 22px;
+	border-left: 3px solid #5b99ff;
+	border-right: 3px solid #5b99ff;
+	border-bottom: 3px solid #5b99ff;
+}
+.tabTxt.active {
+	display: block;
 }

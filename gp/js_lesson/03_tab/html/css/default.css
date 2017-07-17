@@ -6,6 +6,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding: 0;
 	border: 0;
 	outline: 0;
+	box-sizing: border-box;
 	vertical-align: baseline;
 	background: transparent;
 	font-family:"メイリオ", Meiryo,"ヒラギノ角ゴ Pro W3","HIragino Kaku Gothic Pro W3","HIragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック", "MS P Gothic",sans-serif;
@@ -50,19 +51,15 @@ main p, main li, main dt, main dd, main th, main td {
 
 /* link */	
 a:link {
-	color:#333;
 	text-decoration:none;
 }
 a:visited {
-	color:#333;
 	text-decoration:none;
 }
 a:hover {
-	color:#333;
 	text-decoration:none;
 }
 a:active {
-	color:#666;
 	text-decoration:none;
 }
 
